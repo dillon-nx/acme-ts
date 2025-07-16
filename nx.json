@@ -6,14 +6,12 @@
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
   "nxCloudUrl": "https://snapshot.nx.app",
-  "nxCloudId": "6877f65da5c8bc1094c3e4b8",
+  "nxCloudId": "6877f836d0fc746479062c59",
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
       "options": {
-        "typecheck": {
-          "targetName": "typecheck"
-        },
+        "typecheck": { "targetName": "typecheck" },
         "build": {
           "targetName": "build",
           "configName": "tsconfig.lib.json",
